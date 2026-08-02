@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 from packaging.version import Version
+from src.package_scanner import PackageScanner
+from .package_scanner import PackageScanner
 
 
 @dataclass
