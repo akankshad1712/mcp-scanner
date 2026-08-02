@@ -1,0 +1,6 @@
+packaging
+requests
+
+[dev]
+pytest
+pytest-cov

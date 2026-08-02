@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/package_scanner.py
+src/mcp_package_scanner.egg-info/PKG-INFO
+src/mcp_package_scanner.egg-info/SOURCES.txt
+src/mcp_package_scanner.egg-info/dependency_links.txt
+src/mcp_package_scanner.egg-info/requires.txt
+src/mcp_package_scanner.egg-info/top_level.txt
+tests/test_package_scanner.py

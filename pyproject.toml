@@ -1,0 +1,16 @@
+[project]
+name = "mcp-package-scanner"
+version = "0.1.0"
+description = "Security package scanner for MCP projects"
+requires-python = ">=3.10"
+
+dependencies = [
+    "packaging",
+    "requests",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
