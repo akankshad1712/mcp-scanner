@@ -27,3 +27,22 @@ class PackageScanner:
 
     def check_version(self, current, minimum):
         return Version(current) >= Version(minimum)
+
+    def main():
+    import sys
+
+    if len(sys.argv) < 2:
+        print("Usage: mcp-scan <project-path>")
+        return
+
+    project_path = sys.argv[1]
+
+    scanner = PackageScanner()
+
+    result = scanner.scan(project_path)
+
+    print(result)
+
+
+if __name__ == "__main__":
+    main()

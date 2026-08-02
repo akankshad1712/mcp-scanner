@@ -12,3 +12,6 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.scripts]
+mcp-scan = "src.package_scanner:main"
